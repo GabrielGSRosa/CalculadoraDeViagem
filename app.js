@@ -1,6 +1,6 @@
+alert("Os valores apresentados aqui não levam em conta tipo de estrada, trânsito, falhas no motor etc.\n Não tome os valores como lei!")
+
 function calcularCustoViagem(precoCombustivel, distancia) {
-    alert("Os valores apresentados aqui não levam em conta tipo de estrada, trânsito, falhas no motor etc.\n Não tome os valores como lei!")
-    
     // Puxar os valores do formulario
     var precoCombustivel = parseFloat(document.getElementById('precoCombustivel').value)
     var distanciaPercorrida = parseFloat(document.getElementById('distanciaPercorrida').value)
